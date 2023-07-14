@@ -1,1 +1,44 @@
-theme: jekyll-theme-minimal
+# site settings
+title: Gustav Hansen
+subtitle: A masters student at CMU
+email: hello@kusti8.com
+description: A highly motivated electrical engineering masters student at Carnegie Mellon University, specializing in analog mixed signal, with experience in many different fields and a desire for learning. Looking for full time positions and opportunities to contribute, learn new skills, and gain experience. Winner of the Apple Masters Scholarship in IC Engineering.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: https://kusti8.com # the base hostname & protocol for your site
+author:
+street_address:
+city:
+state: CA
+zip_code:
+country: United States of America
+phone:
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/kusti8
+  GitLab:
+  Google-Plus:
+  Instagram:
+  LinkedIn: https://www.linkedin.com/in/kusti8
+  Twitter:
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
