@@ -2,7 +2,7 @@
 layout: page
 title: Energy Harvesting SoC
 description: A full tapeout on TSMC 28nm of a custom SoC design with a custom ADC in a team of 3.
-image: assets/images/pic01.jpg
+image: assets/images/chip.PNG
 nav-menu: true
 ---
 
@@ -18,7 +18,7 @@ nav-menu: true
 
 <!-- Content -->
 <h2 id="content">Overview</h2>
-<p>As part of the 18-725 Advanced Digital Integrated Circuit Design class and with a group of 2 other students, we successfully brainstormed, designed, ran through the flow, and taped out a mixed signal chip on TSMC 28nm. The chip features a custom RISC-V core with the ability to halt and transparently resume execution in the case of low power, a custom synthesizable 10 bit ADC designed, laid out, and pushed through flow by myself as a Digital-on-Top setup, and logic to store ADC values to offboard FRAM during low power states while the core is disabled.</p>
+<p><span class="image right"><img src="{% link assets/images/chip.png %}" alt="" /></span>As part of the 18-725 Advanced Digital Integrated Circuit Design class and with a group of 2 other students, we successfully brainstormed, designed, ran through the flow, and taped out a mixed signal chip on TSMC 28nm. The chip features a custom RISC-V core with the ability to halt and transparently resume execution in the case of low power, a custom synthesizable 10 bit ADC designed, laid out, and pushed through flow by myself as a Digital-on-Top setup, and logic to store ADC values to offboard FRAM during low power states while the core is disabled.</p>
 
 <hr class="major" />
 
