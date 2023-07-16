@@ -62,4 +62,4 @@ once enough energy is available, ensuring that there is no data loss.
 
 Our custom synthesizable ADCs have the advantage of using very little energy, as low as 7uW, with acceptable accuracy. Given the applications
 of sensing the environment, the low sampling rate is an acceptable tradeoff for this performance. This mixed signal ADC was modeled in Verilog-AMS,
-layed out with some hand layout together with synthesized digital logic for controlling the SAR ADC, and all validated with spectre.
+laid out with some hand layout together with synthesized digital logic for controlling the SAR ADC, and all validated with spectre.
