@@ -26,4 +26,4 @@ as space permits and has been designed to allow easy routing, given the restrict
 the metal runs have to be at least 2um wide and have 2um of space between eachother. It has been taped out in Skywater 130nm. Below is a sample
 circuit using the array.</p>
 
-<span class="image fit"><img src="{% link assets/images/reconfig_cs.png %}" alt="" /></span>
+<span class="image fit"><img src="{% link assets/images/reconfig_opamp.png %}" alt="" /></span>
